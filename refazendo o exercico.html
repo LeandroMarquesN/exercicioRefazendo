@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="I_E=edege">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test_stylo.css">
+    <title>testando</title>
+
+</head>
+
+<body>
+    <header id="area_head" onmouseenter="mouse_entrouh()" onmouseout="mouse_saiuh()" onmousemove="mouse_movimenth()">
+        Verificador de Idade
+    </header>
+    <section id="area" onmouseenter="mouse_entrou()" onmouseout="mouse_saiu()" onmousemove="mouse_moviment()">
+        <div>
+            <p id="area_p0" onmouseenter="mouse_entroup0()" onmouseout="mouse_saiup0()">Nome da
+                Pessoa</p>
+
+            <input type="text" id="nome_individuo">
+            <input type="submit" value="confirmar" onclick="confirmou_nome()">
+
+            <p id="area_p1" onmouseenter="mouse_entroup1()" onmouseout="mouse_saiup1()">Ano de nascimento</p>
+
+            <input type="number" name="txtano" id="txtano" min="1">
+
+            <p id="area_p2" onmouseenter="mouse_entroup2()" onmouseout="mouse_saiup2()">Sexo
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">feminino</label>
+            </p>
+            <p>
+                <input type="button" value="verificar" onclick="verificar()" id="input_ver"
+                    onmouseenter="mouse_entrouin()" onmouseout="mouse_saiuin()">
+            </p>
+        </div>
+
+        <div id="res">
+            Informe os campos acima para saber o resultado!!
+            <article id="res2">
+                aqui vai uma resposta alternativa
+            </article>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Leandro Marques</p>
+    </footer>
+    <script src="tets_javaScripit.js"></script>
+</body>
+
+</html>
